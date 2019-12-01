@@ -2,12 +2,13 @@ package hotshots.account.admin.hotshotsaccount.account.controller;
 
 import hotshots.account.admin.hotshotsaccount.account.dto.models.BookingDtoModels.BookingDto;
 import hotshots.account.admin.hotshotsaccount.account.request.model.bookingModels.Booking;
-import hotshots.account.admin.hotshotsaccount.account.request.model.bookingModels.SlotDetails;
-
 import hotshots.account.admin.hotshotsaccount.account.response.model.bookingModels.BookingResponse;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("booking")

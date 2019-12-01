@@ -1,15 +1,11 @@
 package hotshots.account.admin.hotshotsaccount;
 
-import hotshots.account.admin.hotshotsaccount.account.Exception.ErrorMessage;
 import hotshots.account.admin.hotshotsaccount.account.dto.models.UserDto;
 import hotshots.account.admin.hotshotsaccount.account.entity.UserInfo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Scope;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-
-import java.util.Date;
 
 @SpringBootApplication
 public class HotshotsAccountApplication {

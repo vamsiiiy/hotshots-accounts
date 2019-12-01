@@ -1,7 +1,5 @@
 package hotshots.account.admin.hotshotsaccount.account.request.model.bookingModels;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 import java.util.List;
 
 

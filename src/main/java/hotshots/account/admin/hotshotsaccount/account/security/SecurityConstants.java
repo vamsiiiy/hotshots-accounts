@@ -1,7 +1,5 @@
 package hotshots.account.admin.hotshotsaccount.account.security;
 
-import hotshots.account.admin.hotshotsaccount.SpringApplicationContext;
-
 public class SecurityConstants {
 
     public static final long EXPIRATION_DATE = 864000000;
